@@ -26,7 +26,7 @@
       <item>
        <widget class="QGroupBox" name="PortControlsBox">
         <property name="title">
-         <string>PORT CONTROLS</string>
+         <string>通信设置</string>
         </property>
         <property name="flat">
          <bool>false</bool>
@@ -40,7 +40,7 @@
            <item>
             <widget class="QPushButton" name="pushButton">
              <property name="text">
-              <string>Refresh</string>
+              <string>刷新</string>
              </property>
             </widget>
            </item>
@@ -55,7 +55,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>PORT</string>
+                <string>串口号</string>
                </property>
               </widget>
              </item>
@@ -94,7 +94,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>BAUD</string>
+                <string>波特率</string>
                </property>
               </widget>
              </item>
@@ -136,7 +136,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>DATA</string>
+                <string>数据位</string>
                </property>
               </widget>
              </item>
@@ -175,7 +175,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>PARITY</string>
+                <string>校验位</string>
                </property>
               </widget>
              </item>
@@ -214,7 +214,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>STOP</string>
+                <string>停止位</string>
                </property>
               </widget>
              </item>
@@ -250,7 +250,7 @@
       <item>
        <widget class="QGroupBox" name="PlotControlsBox">
         <property name="title">
-         <string>PLOT CONTROLS</string>
+         <string>曲线设置</string>
         </property>
         <layout class="QGridLayout" name="gridLayout_2">
          <item row="0" column="0">
@@ -272,7 +272,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>POINTS</string>
+                <string>X轴段落</string>
                </property>
               </widget>
              </item>
@@ -323,7 +323,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>Y STEP</string>
+                <string>Y轴分段</string>
                </property>
               </widget>
              </item>
@@ -374,7 +374,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>MIN</string>
+                <string>最小值</string>
                </property>
               </widget>
              </item>
@@ -425,7 +425,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>MAX</string>
+                <string>最大值</string>
                </property>
               </widget>
              </item>
@@ -468,7 +468,7 @@
               </size>
              </property>
              <property name="text">
-              <string>AutoScale Yaxis</string>
+              <string>自动匹配合适值</string>
              </property>
             </widget>
            </item>
@@ -524,14 +524,14 @@
            <item>
             <widget class="QPushButton" name="pushButton_ResetVisible">
              <property name="text">
-              <string>Reset All Visible</string>
+              <string>复位</string>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QPushButton" name="savePNGButton">
              <property name="text">
-              <string>Save PNG</string>
+              <string>保存图片</string>
              </property>
             </widget>
            </item>
@@ -562,7 +562,7 @@
          </size>
         </property>
         <property name="title">
-         <string>TEXT CONTROLS</string>
+         <string>文本设置</string>
         </property>
         <layout class="QGridLayout" name="TextControlsBox">
          <item row="0" column="0">
@@ -570,7 +570,7 @@
            <item>
             <widget class="QPushButton" name="pushButton_TextEditHide">
              <property name="text">
-              <string>Hide TextBox</string>
+              <string>隐藏信息</string>
              </property>
              <property name="checkable">
               <bool>true</bool>
@@ -583,7 +583,7 @@
            <item>
             <widget class="QPushButton" name="pushButton_ShowallData">
              <property name="text">
-              <string>Show All Incoming Data</string>
+              <string>显示全部输入数据</string>
              </property>
              <property name="checkable">
               <bool>true</bool>
