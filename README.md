@@ -1,10 +1,12 @@
-# Serial Port Plotter
 # 软件示波器
 配置开发环境和使用方法点击此处查看 https://www.cnblogs.com/fu-pengfei/p/16264769.html  
 QT使用5.14.2版本 与原作者版本不同  
 安装包点击发行版下载，增加了界面汉化，去除了多余的库文件，比原作者的安装包体积小了很多。
+优化后的页面如下
+![image](https://user-images.githubusercontent.com/49359900/168281240-3566caaa-7afb-40f7-960b-516ddd0d5053.png)
 
 
+# Serial Port Plotter
 This is a Windows application that displays real time data from serial port. The application is 32-bit and built with Qt and QCustomPlot library.
 
 ## Features
