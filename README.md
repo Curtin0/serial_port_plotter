@@ -1,7 +1,7 @@
 # Serial Port Plotter
 # 软件示波器
-配置开发环境和使用方法点击此处查看 https://www.cnblogs.com/fu-pengfei/p/16264769.html
-QT使用5.14.2版本 与原作者版本不同
+配置开发环境和使用方法点击此处查看 https://www.cnblogs.com/fu-pengfei/p/16264769.html  
+QT使用5.14.2版本 与原作者版本不同  
 安装包点击发行版下载，增加了界面汉化，去除了多余的库文件，比原作者的安装包体积小了很多。
 
 
